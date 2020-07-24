@@ -4,6 +4,7 @@ call :clean_project planter
 call :clean_project plantor
 call :clean_project testbed
 call :clean_project utils
+call :clean_project svn_exporter
 
 if exist .\bin (
     rmdir /S /Q .\bin

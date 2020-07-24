@@ -26,6 +26,14 @@ run plantor -o E:\Desktop\uml\test.txt -i D:\2019.4.0f1\Editor\Data\Managed\Unit
 
 应用程序, 依赖 `tools` 和 `utils`
 
+### svn_exporter
+
+应用程序, `svn export` 指定后缀文件
+
+```bat
+svn_exporter -i .png -i .jpg -u url/to/be/exported -o export/to/path
+```
+
 ### tools
 
 C库
